@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Highlight 1
+  m_Name: HighlightCEmento
   m_Shader: {fileID: -6465566751694194690, guid: fe5120b2ab792724aa9dfe10b3df5297, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,11 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_347a73181ded435789a673c813d649e8:
-        m_Texture: {fileID: 2800000, guid: 0f1d718d583d1084d979e199650b71a6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0e152c55e2c63774e801a5884a571349, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_56b7f9efc3eb4409a24956e8523e75e1:
-        m_Texture: {fileID: 2800000, guid: 8fbef8b51a66b8b4987ce246195b2937, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3d306f064fea9b648b1504004d72f6e4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -92,7 +92,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_163ed12334d4482ebeb256108b844f20: 2
+    - Vector1_163ed12334d4482ebeb256108b844f20: 1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -120,8 +120,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_410b498156024bc69e39a2669843efca: {r: 0.972549, g: 0.6916005, b: 0.30588242, a: 1}
-    - Color_c3270a99eb1540dfb3de0ee35e38cfd2: {r: 1, g: 0.4109319, b: 0, a: 1}
+    - Color_410b498156024bc69e39a2669843efca: {r: 1, g: 1, b: 1, a: 1}
+    - Color_c3270a99eb1540dfb3de0ee35e38cfd2: {r: 0, g: 0, b: 0, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
