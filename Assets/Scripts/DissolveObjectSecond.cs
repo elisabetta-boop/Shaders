@@ -17,9 +17,9 @@ public class DissolveObjectSecond : MonoBehaviour
 
     void Update()
     {
-        float currentValue  = render.material.GetFloat("_Dissolution");
+        float currentValue  = render.material.GetFloat("_Dissolution2");
         float newValue= Mathf.Lerp(currentValue, finalValue, Time.deltaTime);
-        render.material.SetFloat("_Dissolution", newValue);
+        render.material.SetFloat("_Dissolution2", newValue);
     }
 
     void OnMouseDown() 
