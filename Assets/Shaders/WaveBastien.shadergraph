@@ -585,7 +585,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Smoothness",
     "m_StageCapability": 2,
-    "m_Value": 0.5,
+    "m_Value": 1.0,
     "m_DefaultValue": 0.5,
     "m_Labels": []
 }
@@ -696,8 +696,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -832.9999389648438,
-            "y": 618.0,
+            "x": -833.0,
+            "y": 138.0000762939453,
             "width": 208.0,
             "height": 326.0
         }
@@ -806,8 +806,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1479.0,
-            "y": 796.0,
+            "x": -1507.0,
+            "y": 315.9999694824219,
             "width": 144.99998474121095,
             "height": 130.0
         }
@@ -864,7 +864,7 @@
     "m_Guid": {
         "m_GuidSerialized": "69bb93e3-a00c-4af4-a91e-dde55dbac3f4"
     },
-    "m_Name": "Deep Water",
+    "m_Name": "Trasparence Water",
     "m_DefaultReferenceName": "Color_3611760782764cb8baca6844ef7fdbdb",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -873,9 +873,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.007475974503904581,
-        "g": 0.0406593419611454,
-        "b": 0.22641509771347047,
+        "r": 0.23113209009170533,
+        "g": 0.9918878674507141,
+        "b": 1.0,
         "a": 0.0
     },
     "m_ColorMode": 0
@@ -1021,9 +1021,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1118.0,
-            "y": 596.0,
-            "width": 125.99999237060547,
+            "x": -1069.0,
+            "y": 215.0,
+            "width": 126.0,
             "height": 118.0
         }
     },
@@ -1112,9 +1112,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -335.0,
-            "y": 129.00001525878907,
-            "width": 207.99998474121095,
+            "x": -347.9999084472656,
+            "y": 79.00003051757813,
+            "width": 208.0,
             "height": 326.0
         }
     },
@@ -1212,8 +1212,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -581.9998168945313,
-            "y": 189.00001525878907,
+            "x": -582.0,
+            "y": 138.0000762939453,
             "width": 137.99998474121095,
             "height": 34.0
         }
@@ -1589,10 +1589,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -167.99998474121095,
-            "y": -520.0000610351563,
+            "x": -190.99989318847657,
+            "y": -537.0,
             "width": 128.0,
-            "height": 124.99999237060547
+            "height": 125.0
         }
     },
     "m_Slots": [
@@ -1650,9 +1650,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -379.99993896484377,
-            "y": -625.0,
-            "width": 119.99999237060547,
+            "x": -467.99981689453127,
+            "y": -595.0,
+            "width": 120.0,
             "height": 149.0
         }
     },
@@ -1758,7 +1758,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "7c6cc59df6784f9e9650740ead64b1fa",
     "m_Id": 0,
-    "m_DisplayName": "Water Color",
+    "m_DisplayName": "Water Deep Color",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1979,8 +1979,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1255.9998779296875,
-            "y": 776.9999389648438,
+            "x": -1284.0,
+            "y": 297.0000305175781,
             "width": 119.99999237060547,
             "height": 149.0
         }
@@ -2338,10 +2338,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1420.0,
-            "y": 596.0,
-            "width": 144.99998474121095,
-            "height": 112.99999237060547
+            "x": -1507.0,
+            "y": 129.0,
+            "width": 145.0,
+            "height": 113.0
         }
     },
     "m_Slots": [
@@ -2629,7 +2629,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "bd69dc71d6544124afb1b7fd2b1224ad",
     "m_Id": 0,
-    "m_DisplayName": "Deep Water",
+    "m_DisplayName": "Trasparence Water",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3036,7 +3036,7 @@
     "m_Guid": {
         "m_GuidSerialized": "38168957-1359-4b40-b0f8-d685dd869123"
     },
-    "m_Name": "Water Color",
+    "m_Name": "Water Deep Color",
     "m_DefaultReferenceName": "Color_fe52e97016ac47c8bbcf5785e73ebccd",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -3045,9 +3045,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.7216981053352356,
-        "g": 0.8595237135887146,
-        "b": 1.0,
+        "r": 0.0,
+        "g": 0.11682508885860443,
+        "b": 0.38679248094558718,
         "a": 0.0
     },
     "m_ColorMode": 0
