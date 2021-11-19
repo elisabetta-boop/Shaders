@@ -32,6 +32,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_6a17d755df53446bb9ce781c7c06d025:
+        m_Texture: {fileID: 2800000, guid: 43486a2b7e8b576498e663576df8bd76, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_7a260dd3f08d43d091082c50ac6001a6:
+        m_Texture: {fileID: 2800000, guid: 59c8e922e7d5b2d4391979a6933a5a87, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -72,6 +80,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8d2f61810b0a4e6584ec4c3034ddd08d_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 43486a2b7e8b576498e663576df8bd76, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_aa09386d895b45dd8248b4912a974be2_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 59c8e922e7d5b2d4391979a6933a5a87, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -90,7 +106,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_14bbe081ee5946488eecf9d3c75e8197: 1
-    - Vector1_81123b3268614659a80d401ca08cf273: 1
+    - Vector1_81123b3268614659a80d401ca08cf273: 0.4
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -118,8 +134,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_3611760782764cb8baca6844ef7fdbdb: {r: 0.3820755, g: 0.85622895, b: 1, a: 0}
+    - Color_3611760782764cb8baca6844ef7fdbdb: {r: 0.10323961, g: 0.6021559, b: 0.754717, a: 0}
     - Color_fe52e97016ac47c8bbcf5785e73ebccd: {r: 0, g: 0.053135455, b: 0.26415092, a: 0}
+    - Vector2_3dac683b201f48c88593cc187ed714bc: {r: 0, g: 0.03, b: 0, a: 0}
+    - Vector2_428732ba3f1c4bf2824a268aca7c0061: {r: 0.02, g: 0, b: 0, a: 0}
     - Vector2_c35e41a151c5483b86c8061859846c21: {r: 0.1, g: -0.2, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
